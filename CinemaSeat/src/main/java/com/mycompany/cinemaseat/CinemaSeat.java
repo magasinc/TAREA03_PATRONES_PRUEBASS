@@ -28,6 +28,7 @@ public class CinemaSeat {
         AsientoVIP vip = new AsientoVIP();
         AsientoEstandar estandar = new AsientoEstandar();
         Asiento4D cuatroD = new Asiento4D();
+        ClienteCine cinec=new ClienteCine(nombreUsuario);
 
         fila.agregarAsiento(vip);
         fila.agregarAsiento(estandar);
@@ -73,9 +74,11 @@ switch (opcion) {
                     break;
                 case 3:
                     System.out.println(" ¿Hay asientos disponibles?: " + sala.estaDisponible());
+                    
                     break;
                 case 4:
                     funcion.cambiarEstado("cancelada");
+                    
                     break;
                 case 5:
                     System.out.println("? Gracias por usar CinemaSeat. ¡Hasta pronto!");
@@ -85,7 +88,8 @@ switch (opcion) {
             }
 
         } while (opcion != 5);
-
+        System.out.println("...");
+        cinec.notificar("¡ CinemaSeat agradece el uso de la app ! ");
         scanner.close();
     }
 }
