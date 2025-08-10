@@ -16,7 +16,7 @@ public class ClienteCine implements SuscriptorNotificacion {
     @Override
     public void notificar(String mensaje) {
         mensajesRecibidos.add(mensaje);
-        System.out.println("Notificación para " + nombre + ": " + mensaje);
+        System.out.println("Notificacion para " + nombre + ": " + mensaje);
     }
 
     public List<String> getMensajesRecibidos() {

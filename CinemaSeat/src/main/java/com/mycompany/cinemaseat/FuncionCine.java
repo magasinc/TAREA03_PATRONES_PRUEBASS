@@ -35,7 +35,7 @@ public class FuncionCine {
 
     public void notificarSuscriptores() {
         for (SuscriptorNotificacion s : suscriptores) {
-            s.notificar("La función está ahora en estado: " + estado);
+            s.notificar("La función esta ahora en estado: " + estado);
         }
     }
 }

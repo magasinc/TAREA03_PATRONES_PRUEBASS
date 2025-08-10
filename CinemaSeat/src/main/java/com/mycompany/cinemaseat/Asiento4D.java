@@ -18,7 +18,7 @@ public class Asiento4D implements Asiento {
 
     @Override
     public String getDescripcion() {
-        return "Asiento 4D con efectos especiales y vibración.";
+        return "Asiento 4D con efectos especiales y vibracion.";
     }
 
     @Override

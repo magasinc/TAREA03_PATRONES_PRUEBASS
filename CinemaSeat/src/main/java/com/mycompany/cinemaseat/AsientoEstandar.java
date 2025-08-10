@@ -18,7 +18,7 @@ public class AsientoEstandar implements Asiento {
 
     @Override
     public String getDescripcion() {
-        return "Asiento estándar con experiencia clásica.";
+        return "Asiento estandar con experiencia clasica.";
     }
 
     @Override
@@ -33,6 +33,6 @@ public class AsientoEstandar implements Asiento {
 
     @Override
     public void mostrar() {
-        System.out.println("Asiento Estándar - Disponible: " + disponible);
+        System.out.println("Asiento Estandar - Disponible: " + disponible);
     }
 }
