@@ -13,7 +13,7 @@ public class CinemaSeat {
         Scanner scanner = new Scanner(System.in);
 
         // Registro de usuario
-        System.out.println("️ Bienvenido a CinemaSeat ️");
+        System.out.println("Bienvenido a CinemaSeat");
         System.out.print("Ingrese su nombre para registrarse: ");
         String nombreUsuario = scanner.nextLine();
         ClienteCine cliente = new ClienteCine(nombreUsuario);
@@ -38,15 +38,15 @@ public class CinemaSeat {
         // Menú de opciones
         int opcion;
         do {
-            System.out.println(" Menú de opciones:");
+            System.out.println(" Menu de opciones:");
             System.out.println("1. Ver mapa de asientos");
             System.out.println("2. Reservar asiento");
             System.out.println("3. Ver disponibilidad");
             System.out.println("4. Cancelar función (simular)");
             System.out.println("5. Salir");
-            System.out.print("Seleccione una opción: ");
+            System.out.print("Seleccione una opcin: ");
             opcion = scanner.nextInt();
-            scanner.nextLine(); // Limpiar buffer
+            scanner.nextLine();
 switch (opcion) {
                 case 1:
                     System.out.println(" Mapa de Asientos:");
@@ -55,9 +55,9 @@ switch (opcion) {
                 case 2:
                     System.out.println("¿Qué tipo de asiento desea reservar?");
                     System.out.println("1. VIP");
-                    System.out.println("2. Estándar");
+                    System.out.println("2. Estandar");
                     System.out.println("3. 4D");
-                    System.out.print("Ingrese opción: ");
+                    System.out.print("Ingrese opcion: ");
                     int tipo = scanner.nextInt();
 
                     Asiento asientoSeleccionado = null;
@@ -69,7 +69,7 @@ switch (opcion) {
                         asientoSeleccionado.setDisponible(false);
                         System.out.println(" ¡Reserva exitosa!");
                     } else {
-                        System.out.println(" Asiento no disponible o inválido.");
+                        System.out.println(" Asiento no disponible o invalido.");
                     }
                     break;
                 case 3:
@@ -84,7 +84,7 @@ switch (opcion) {
                     System.out.println("? Gracias por usar CinemaSeat. ¡Hasta pronto!");
                     break;
                 default:
-                    System.out.println(" Opción no válida.");
+                    System.out.println(" Opcion no valida.");
             }
 
         } while (opcion != 5);
