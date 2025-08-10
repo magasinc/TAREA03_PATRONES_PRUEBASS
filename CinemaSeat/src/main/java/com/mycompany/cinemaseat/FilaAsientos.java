@@ -14,6 +14,9 @@ public class FilaAsientos  {
     }
 
     public void agregar(Asiento asiento) {
+        if (asiento == null) {
+            throw new NullPointerException("No se puede agregar un asiento nulo");
+        }
         elementos.add(asiento);
     }
 

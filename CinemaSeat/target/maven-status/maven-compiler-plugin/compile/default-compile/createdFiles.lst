@@ -1,6 +1,12 @@
 com\mycompany\cinemaseat\FabricaAsientoVIP.class
 com\mycompany\cinemaseat\SalaCine.class
+com\mycompany\cinemaseat\AsientoEstandar.class
 com\mycompany\cinemaseat\FilaAsientos.class
+com\mycompany\cinemaseat\FuncionCine.class
+com\mycompany\cinemaseat\AsientoVIP.class
+com\mycompany\cinemaseat\Asiento4D.class
 com\mycompany\cinemaseat\Asiento.class
+com\mycompany\cinemaseat\CinemaSeat.class
+com\mycompany\cinemaseat\ClienteCine.class
 com\mycompany\cinemaseat\FilaAsientosExtendida.class
 com\mycompany\cinemaseat\SuscriptorNotificacion.class
