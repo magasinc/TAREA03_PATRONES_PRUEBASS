@@ -27,7 +27,7 @@ public class Asiento4D implements Asiento {
     }
 
     @Override
-    public void setDisponible(boolean disponible) {
+        public void setDisponible(boolean disponible) {
         this.disponible = disponible;
     }
 

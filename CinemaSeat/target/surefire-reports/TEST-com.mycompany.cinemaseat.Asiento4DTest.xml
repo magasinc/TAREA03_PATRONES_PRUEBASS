@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.cinemaseat.Asiento4DTest" time="0.071" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.cinemaseat.Asiento4DTest" time="0.081" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="EC"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\Cocki\AppData\Local\Temp\surefire4288044996332833652\surefirebooter-20250808170714339_3.jar C:\Users\Cocki\AppData\Local\Temp\surefire4288044996332833652 2025-08-08T17-07-14_165-jvmRun1 surefire-20250808170714339_1tmp surefire_0-20250808170714339_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Cocki\AppData\Local\Temp\surefire17492082426425234493\surefirebooter-20250810213105441_3.jar C:\Users\Cocki\AppData\Local\Temp\surefire17492082426425234493 2025-08-10T21-31-05_271-jvmRun1 surefire-20250810213105441_1tmp surefire_0-20250810213105441_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.mycompany.cinemaseat.Asiento4DTest#testObjetoNoEsNull"/>
+    <property name="test" value="com.mycompany.cinemaseat.Asiento4DTest#testPrecioNoEsIncorrecto"/>
     <property name="surefire.test.class.path" value="C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\test-classes;C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\classes;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Cocki\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\Cocki\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Cocki"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Cocki\AppData\Local\Temp\surefire4288044996332833652\surefirebooter-20250808170714339_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Cocki\AppData\Local\Temp\surefire17492082426425234493\surefirebooter-20250810213105441_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testObjetoNoEsNull" classname="com.mycompany.cinemaseat.Asiento4DTest" time="0.032"/>
+  <testcase name="testPrecioNoEsIncorrecto" classname="com.mycompany.cinemaseat.Asiento4DTest" time="0.038"/>
 </testsuite>

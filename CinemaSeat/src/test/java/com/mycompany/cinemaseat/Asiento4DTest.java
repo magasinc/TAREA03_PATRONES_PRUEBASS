@@ -77,6 +77,11 @@ Test of getPrecio method, of class Asiento4D.
         assertNotNull(asiento.getDescripcion(), "La descripción no debería ser null");
     }
 
-    
+    @Test
+    public void testPrecioNoEsCorrecto() {
+        Asiento4D asiento = new Asiento4D();
+        assertNotEquals(15.0, asiento.getPrecio(),
+                "El precio no debería ser igual a 15.0");
+    }
     
 }

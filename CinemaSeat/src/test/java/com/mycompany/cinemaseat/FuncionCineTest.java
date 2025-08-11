@@ -37,6 +37,8 @@ public class FuncionCineTest {
         assertEquals(1, mensajes.size());
         assertEquals("La función esta ahora en estado: activa", mensajes.get(0));
     }
+    
+    
 
     @Test
     void testCambiarEstadoNullYNotificar() {
@@ -50,6 +52,7 @@ public class FuncionCineTest {
         assertEquals(1, mensajes.size());
         assertEquals("La función esta ahora en estado: null", mensajes.get(0));
     }
+    
 
     @Test
     void testRegistrarSuscriptorValido() {

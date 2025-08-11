@@ -38,4 +38,5 @@ public class FuncionCine {
             s.notificar("La función esta ahora en estado: " + estado);
         }
     }
+    
 }
