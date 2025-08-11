@@ -31,11 +31,11 @@ public class FuncionCineTest {
         ClienteCine cliente = new ClienteCine("Juan");
         funcion.registrar(cliente);
 
-        funcion.cambiarEstado("pausada");
+        funcion.cambiarEstado("activa");
 
         List<String> mensajes = cliente.getMensajesRecibidos();
         assertEquals(1, mensajes.size());
-        assertEquals("La función está ahora en estado: pausada", mensajes.get(0));
+        assertEquals("La función esta ahora en estado: activa", mensajes.get(0));
     }
 
     @Test
@@ -48,7 +48,7 @@ public class FuncionCineTest {
 
         List<String> mensajes = cliente.getMensajesRecibidos();
         assertEquals(1, mensajes.size());
-        assertEquals("La función está ahora en estado: null", mensajes.get(0));
+        assertEquals("La función esta ahora en estado: null", mensajes.get(0));
     }
 
     @Test
@@ -82,10 +82,10 @@ public class FuncionCineTest {
         funcion.cambiarEstado("Finalizada");
 
         assertEquals(1, c1.getMensajesRecibidos().size());
-        assertEquals("La función está ahora en estado: Finalizada", c1.getMensajesRecibidos().get(0));
+        assertEquals("La función esta ahora en estado: Finalizada", c1.getMensajesRecibidos().get(0));
 
         assertEquals(1, c2.getMensajesRecibidos().size());
-        assertEquals("La función está ahora en estado: Finalizada", c2.getMensajesRecibidos().get(0));
+        assertEquals("La función esta ahora en estado: Finalizada", c2.getMensajesRecibidos().get(0));
     }
 }
     

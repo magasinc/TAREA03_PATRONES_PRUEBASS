@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.cinemaseat.FuncionCineTest" time="0.057" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.cinemaseat.FuncionCineTest" time="0.086" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\test-classes;C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\classes;C:\Users\joseg\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\joseg\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\joseg\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\joseg\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\joseg\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\joseg\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\joseg\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\test-classes;C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\classes;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Cocki\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\Cocki\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="America/Guayaquil"/>
-    <property name="os.name" value="Windows 11"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="24"/>
     <property name="user.country" value="EC"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Users\joseg\OneDrive\Documentos\OpenJDK-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\joseg\AppData\Local\Temp\surefire1360383403813492970\surefirebooter-20250810120850886_3.jar C:\Users\joseg\AppData\Local\Temp\surefire1360383403813492970 2025-08-10T12-08-50_752-jvmRun1 surefire-20250810120850886_1tmp surefire_0-20250810120850886_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\Cocki\AppData\Local\Temp\surefire18380203904072576723\surefirebooter-20250810200139468_3.jar C:\Users\Cocki\AppData\Local\Temp\surefire18380203904072576723 2025-08-10T20-01-39_265-jvmRun1 surefire-20250810200139468_1tmp surefire_0-20250810200139468_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.mycompany.cinemaseat.FuncionCineTest#testNotificarMultiplesSuscriptores"/>
-    <property name="surefire.test.class.path" value="C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\test-classes;C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\classes;C:\Users\joseg\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\joseg\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\joseg\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\joseg\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\joseg\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\joseg\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\joseg\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\test-classes;C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\classes;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Cocki\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\Cocki\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\joseg"/>
+    <property name="user.home" value="C:\Users\Cocki"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2025-03-18"/>
-    <property name="java.home" value="C:\Users\joseg\OneDrive\Documentos\OpenJDK-24"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat"/>
+    <property name="basedir" value="C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\joseg\AppData\Local\Temp\surefire1360383403813492970\surefirebooter-20250810120850886_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Cocki\AppData\Local\Temp\surefire18380203904072576723\surefirebooter-20250810200139468_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="24+36-3646"/>
-    <property name="user.name" value="joseg"/>
+    <property name="java.runtime.version" value="24.0.1+9-30"/>
+    <property name="user.name" value="Cocki"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-25\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
-    <property name="localRepository" value="C:\Users\joseg\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\Cocki\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\joseg\AppData\Local\Temp\"/>
-    <property name="java.version" value="24"/>
-    <property name="user.dir" value="C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat"/>
+    <property name="java.io.tmpdir" value="C:\Users\Cocki\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\joseg\OneDrive\Documentos\OpenJDK-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\joseg\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\joseg\AppData\Local\Microsoft\WindowsApps;C:\Users\joseg\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\joseg\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joseg\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Users\Cocki\AppData\Local\Microsoft\WindowsApps;C:\Users\Cocki\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Cocki\AppData\Local\GitHubDesktop\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="24+36-3646"/>
+    <property name="java.vm.version" value="24.0.1+9-30"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testNotificarMultiplesSuscriptores" classname="com.mycompany.cinemaseat.FuncionCineTest" time="0.031">
-    <system-out><![CDATA[Notificación para Luis: La función está ahora en estado: Finalizada
-Notificación para Marta: La función está ahora en estado: Finalizada
+  <testcase name="testNotificarMultiplesSuscriptores" classname="com.mycompany.cinemaseat.FuncionCineTest" time="0.042">
+    <system-out><![CDATA[Notificacion para Luis: La función esta ahora en estado: Finalizada
+Notificacion para Marta: La función esta ahora en estado: Finalizada
 ]]></system-out>
   </testcase>
 </testsuite>
