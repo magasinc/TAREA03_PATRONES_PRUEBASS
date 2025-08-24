@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.cinemaseat.FuncionCineTest" time="0.08" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.cinemaseat.FuncionCineTest" time="0.113" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -14,11 +14,11 @@
     <property name="java.vm.specification.version" value="24"/>
     <property name="user.country" value="EC"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\Cocki\AppData\Local\Temp\surefire13597465826792098899\surefirebooter-20250810212522665_3.jar C:\Users\Cocki\AppData\Local\Temp\surefire13597465826792098899 2025-08-10T21-25-22_525-jvmRun1 surefire-20250810212522665_1tmp surefire_0-20250810212522665_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Users\joseg\OneDrive\Documentos\OpenJDK-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\joseg\AppData\Local\Temp\surefire14830570669657446473\surefirebooter-20250810200120467_3.jar C:\Users\joseg\AppData\Local\Temp\surefire14830570669657446473 2025-08-10T20-01-20_348-jvmRun1 surefire-20250810200120467_1tmp surefire_0-20250810200120467_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.mycompany.cinemaseat.FuncionCineTest#testCambiarEstadoYNotificarNo"/>
-    <property name="surefire.test.class.path" value="C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\test-classes;C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\classes;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Cocki\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\Cocki\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\Cocki\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
+    <property name="test" value="com.mycompany.cinemaseat.FuncionCineTest#testCambiarEstadoNullYNotificar"/>
+    <property name="surefire.test.class.path" value="C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\test-classes;C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\target\classes;C:\Users\joseg\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\joseg\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\joseg\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\joseg\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\joseg\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\joseg\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\joseg\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Cocki"/>
     <property name="user.language" value="es"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Cocki\AppData\Local\Temp\surefire13597465826792098899\surefirebooter-20250810212522665_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\joseg\AppData\Local\Temp\surefire14830570669657446473\surefirebooter-20250810200120467_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -60,20 +60,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testCambiarEstadoYNotificarNo" classname="com.mycompany.cinemaseat.FuncionCineTest" time="0.037">
-    <failure message="expected: not equal but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: not equal but was: <1>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+  <testcase name="testCambiarEstadoNullYNotificar" classname="com.mycompany.cinemaseat.FuncionCineTest" time="0.062">
+    <failure message="expected: &lt;La función está ahora en estado: null&gt; but was: &lt;La función esta ahora en estado: null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <La función está ahora en estado: null> but was: <La función esta ahora en estado: null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertNotEquals.failEqual(AssertNotEquals.java:277)
-	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:94)
-	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:86)
-	at org.junit.jupiter.api.Assertions.assertNotEquals(Assertions.java:1981)
-	at com.mycompany.cinemaseat.FuncionCineTest.testCambiarEstadoYNotificarNo(FuncionCineTest.java:50)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.mycompany.cinemaseat.FuncionCineTest.testCambiarEstadoNullYNotificar(FuncionCineTest.java:51)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></failure>
-    <system-out><![CDATA[Notificacion para Juanes: La función esta ahora en estado: activa
+    <system-out><![CDATA[Notificacion para Ana: La función esta ahora en estado: null
 ]]></system-out>
   </testcase>
 </testsuite>
