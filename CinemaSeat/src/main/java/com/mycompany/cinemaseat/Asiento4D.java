@@ -35,4 +35,6 @@ public class Asiento4D implements Asiento {
     public void mostrar() {
         System.out.println("Asiento 4D - Disponible: " + disponible);
     }
+
+    
 }

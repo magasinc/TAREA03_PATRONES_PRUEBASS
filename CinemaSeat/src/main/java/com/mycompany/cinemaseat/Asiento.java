@@ -14,5 +14,5 @@ public interface Asiento {
     boolean estaDisponible();
     void setDisponible(boolean disponible);
     void mostrar();
-     
+    
 }

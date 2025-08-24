@@ -7,7 +7,9 @@ package com.mycompany.cinemaseat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FilaAsientos  {
+public class FilaAsientos  extends FilaAsientosRef{
+    
+    public boolean disponible=true;
     private List<Asiento> elementos;
     public FilaAsientos() {
         this.elementos = new ArrayList<>();
@@ -26,4 +28,11 @@ public class FilaAsientos  {
             e.mostrar();
         }
     }
+
+    @Override
+    public boolean hayAsientosDisponibles() {
+        return disponible; 
+    }
+
+    
 }

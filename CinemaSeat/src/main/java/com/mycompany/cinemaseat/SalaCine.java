@@ -24,10 +24,8 @@ public class SalaCine {
 
     public boolean estaDisponible() {
         for (FilaAsientos fila : filas) {
-            if (fila instanceof FilaAsientosExtendida) {
-                if (((FilaAsientosExtendida) fila).hayAsientosDisponibles()) {
-                    return true;
-                }
+            if (fila.hayAsientosDisponibles()) {
+                return true;
             }
         }
         return false;
