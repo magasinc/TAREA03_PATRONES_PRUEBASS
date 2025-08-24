@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.cinemaseat.FuncionCineTest" time="0.029" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.cinemaseat.SalaCineTest" time="0.022" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sonar.projectName" value="misistema"/>
     <property name="java.specification.version" value="17"/>
@@ -62,20 +62,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testCambiarEstadoYNotificar" classname="com.mycompany.cinemaseat.FuncionCineTest" time="0.014">
-    <system-out><![CDATA[Notificacion para Juan: La función esta ahora en estado: activa
+  <testcase name="testAgregarFilaNormalNoAfectaDisponibilidad" classname="com.mycompany.cinemaseat.SalaCineTest" time="0.001"/>
+  <testcase name="testFilaExtendidaTodosOcupados" classname="com.mycompany.cinemaseat.SalaCineTest" time="0.005"/>
+  <testcase name="testFilaExtendidaConAsientoLibre" classname="com.mycompany.cinemaseat.SalaCineTest" time="0.001"/>
+  <testcase name="testMostrar" classname="com.mycompany.cinemaseat.SalaCineTest" time="0.002">
+    <system-out><![CDATA[Sala:
+Asiento 4D - Disponible: true
+Asiento 4D - Disponible: true
 ]]></system-out>
   </testcase>
-  <testcase name="testNotificarSinSuscriptores" classname="com.mycompany.cinemaseat.FuncionCineTest" time="0.002"/>
-  <testcase name="testNotificarMultiplesSuscriptores" classname="com.mycompany.cinemaseat.FuncionCineTest" time="0.001">
-    <system-out><![CDATA[Notificacion para Luis: La función esta ahora en estado: Finalizada
-Notificacion para Marta: La función esta ahora en estado: Finalizada
-]]></system-out>
-  </testcase>
-  <testcase name="testRegistrarSuscriptorNull" classname="com.mycompany.cinemaseat.FuncionCineTest" time="0.001"/>
-  <testcase name="testCambiarEstadoNullYNotificar" classname="com.mycompany.cinemaseat.FuncionCineTest" time="0.001">
-    <system-out><![CDATA[Notificacion para Ana: La función esta ahora en estado: null
-]]></system-out>
-  </testcase>
-  <testcase name="testRegistrarSuscriptorValido" classname="com.mycompany.cinemaseat.FuncionCineTest" time="0.001"/>
+  <testcase name="testSalaInicialSinDisponibilidad" classname="com.mycompany.cinemaseat.SalaCineTest" time="0.002"/>
+  <testcase name="testMixtoVariasFilasExtendidas" classname="com.mycompany.cinemaseat.SalaCineTest" time="0.001"/>
 </testsuite>

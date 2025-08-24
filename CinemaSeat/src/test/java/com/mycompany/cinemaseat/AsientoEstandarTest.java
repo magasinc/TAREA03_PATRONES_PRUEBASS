@@ -45,7 +45,7 @@ public class AsientoEstandarTest {
     @Test
     void testDescripcion() {
         AsientoEstandar asiento = new AsientoEstandar();
-        assertEquals("Asiento estándar con experiencia clásica.",
+        assertEquals("Asiento estandar con experiencia clasica.",
                      asiento.getDescripcion(),
                      "La descripción no coincide");
     }

@@ -51,7 +51,7 @@ Test of getPrecio method, of class Asiento4D.
   @Test
   void testDescripcion() {
       Asiento4D asiento = new Asiento4D();
-      assertEquals("Asiento 4D con efectos especiales y vibración.",
+      assertEquals("Asiento 4D con efectos especiales y vibracion.",
                      asiento.getDescripcion(),
                      "La descripción no coincide");
     }

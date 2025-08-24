@@ -52,8 +52,8 @@ public class FabricaAsientoEstandarTest {
         FabricaAsientoEstandar fabrica = new FabricaAsientoEstandar();
         Asiento asiento = fabrica.createAsiento();
 
-        assertEquals(10.0, asiento.getPrecio(), "El precio del asiento estándar debe ser 10.0");
-        assertEquals("Asiento estándar", asiento.getDescripcion(),
+        assertEquals(8.0, asiento.getPrecio(), "El precio del asiento estándar debe ser 10.0");
+        assertEquals("Asiento estandar con experiencia clasica.", asiento.getDescripcion(),
                 "La descripción del asiento estándar no coincide");
     }
 
