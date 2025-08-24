@@ -1,17 +1,16 @@
-
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\Asiento.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\Asiento4D.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\AsientoEstandar.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\AsientoVIP.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\CinemaSeat.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\ClienteCine.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FabricaAsiento.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FabricaAsiento4D.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FabricaAsientoEstandar.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FabricaAsientoVIP.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FilaAsientos.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FilaAsientosExtendida.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FuncionCine.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\SalaCine.java
-C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\SuscriptorNotificacion.java
-
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\Asiento.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\Asiento4D.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\AsientoEstandar.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\AsientoVIP.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\CinemaSeat.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\ClienteCine.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FabricaAsiento.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FabricaAsiento4D.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FabricaAsientoEstandar.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FabricaAsientoVIP.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FilaAsientos.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FilaAsientosExtendida.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FilaAsientosRef.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\FuncionCine.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\SalaCine.java
+C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\main\java\com\mycompany\cinemaseat\SuscriptorNotificacion.java

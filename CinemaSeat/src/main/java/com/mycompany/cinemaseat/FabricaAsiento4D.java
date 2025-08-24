@@ -8,10 +8,10 @@ package com.mycompany.cinemaseat;
  *
  * @author joseg
  */
-public class FabricaAsiento4D implements FabricaAsiento {
+abstract class FabricaAsiento4D implements FabricaAsiento {
     @Override
     public Asiento createAsiento() {
         return new Asiento4D();
-}
+    }
 }
 

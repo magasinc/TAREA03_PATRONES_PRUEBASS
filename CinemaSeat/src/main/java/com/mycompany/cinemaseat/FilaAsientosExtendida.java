@@ -11,7 +11,8 @@ package com.mycompany.cinemaseat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FilaAsientosExtendida extends FilaAsientos {
+public class FilaAsientosExtendida extends FilaAsientosRef {
+    
     private List<Asiento> asientos;
 
     public FilaAsientosExtendida() {
@@ -23,18 +24,27 @@ public class FilaAsientosExtendida extends FilaAsientos {
         super.agregar(asiento);      
         asientos.add(asiento);       
     }
-
-    public boolean hayAsientosDisponibles() {
-        for (Asiento a : asientos) {
-            if (a.estaDisponible()) return true;
+     public void agregar(Asiento asiento) {
+        if (asiento == null) {
+            throw new NullPointerException("No se puede agregar un asiento nulo");
         }
-        return false;
+        asientos.add(asiento);
     }
-
+    
     @Override
     public void mostrar() {
         for (Asiento a : asientos) {
             a.mostrar();
         }
     }
+
+    @Override
+    public boolean hayAsientosDisponibles() {
+        for (Asiento a : asientos) {
+            if (a.estaDisponible()) return true;
+        }
+        return false; 
+    }
+    
+    
 }

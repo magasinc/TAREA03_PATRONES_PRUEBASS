@@ -11,19 +11,20 @@ package com.mycompany.cinemaseat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SalaCine {
-    private List<FilaAsientos> filas;
-
+public class SalaCine extends FilaAsientosRef{
+    private List<FilaAsientosExtendida> filas;
+    
     public SalaCine() {
         this.filas = new ArrayList<>();
     }
 
-    public void agregar(FilaAsientos fila) {
+    public void agregar(FilaAsientosExtendida fila) {
         filas.add(fila);
     }
+    
 
     public boolean estaDisponible() {
-        for (FilaAsientos fila : filas) {
+        for (FilaAsientosExtendida fila : filas) {
             if (fila.hayAsientosDisponibles()) {
                 return true;
             }
@@ -33,8 +34,13 @@ public class SalaCine {
 
     public void mostrar() {
         System.out.println("Sala:");
-        for (FilaAsientos fila : filas) {
+        for (FilaAsientosExtendida fila : filas) {
             fila.mostrar();
         }
+    }
+
+    @Override
+    public boolean hayAsientosDisponibles() {
+        return disponible;
     }
 }

@@ -31,8 +31,12 @@ public class FilaAsientos  extends FilaAsientosRef{
 
     @Override
     public boolean hayAsientosDisponibles() {
-        return disponible; 
+        for (Asiento a : elementos) {
+            if (a.estaDisponible()) return true;
+        }
+        return false; 
     }
-
+    
+    
     
 }

@@ -10,6 +10,7 @@ com\mycompany\cinemaseat\FabricaAsiento4D.class
 com\mycompany\cinemaseat\FuncionCine.class
 com\mycompany\cinemaseat\AsientoVIP.class
 com\mycompany\cinemaseat\Asiento4D.class
+com\mycompany\cinemaseat\FilaAsientosRef.class
 com\mycompany\cinemaseat\FabricaAsientoEstandar.class
 com\mycompany\cinemaseat\Asiento.class
 com\mycompany\cinemaseat\FilaAsientosExtendida.class

@@ -2,5 +2,5 @@ projectKey=misistema
 serverUrl=http://localhost:9000
 serverVersion=25.8.0.112029
 dashboardUrl=http://localhost:9000/dashboard?id=misistema
-ceTaskId=03b50f7e-53d3-4ce5-8c4b-5918215a6f86
-ceTaskUrl=http://localhost:9000/api/ce/task?id=03b50f7e-53d3-4ce5-8c4b-5918215a6f86
+ceTaskId=7481b16a-c91b-4770-a035-c5df19e7922a
+ceTaskUrl=http://localhost:9000/api/ce/task?id=7481b16a-c91b-4770-a035-c5df19e7922a

@@ -41,7 +41,7 @@ public class SalaCineTest {
     @Test
     void testAgregarFilaNormalNoAfectaDisponibilidad() {
         SalaCine sala = new SalaCine();
-        FilaAsientos filaNormal = new FilaAsientos();
+        FilaAsientosExtendida filaNormal = new FilaAsientosExtendida();
         // aunque la fila normal tenga asientos, SalaCine ignora su disponibilidad
         filaNormal.agregar(new Asiento4D());
         sala.agregar(filaNormal);
@@ -107,7 +107,7 @@ public class SalaCineTest {
         FilaAsientosExtendida filaExt = new FilaAsientosExtendida();
         filaExt.agregarAsiento(new Asiento4D());
 
-        sala.agregar(filaNormal);
+        
         sala.agregar(filaExt);
 
         sala.mostrar();
