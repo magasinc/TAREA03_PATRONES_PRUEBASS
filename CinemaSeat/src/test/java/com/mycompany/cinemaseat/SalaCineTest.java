@@ -53,7 +53,7 @@ public class SalaCineTest {
     void testFilaExtendidaConAsientoLibre() {
         SalaCine sala = new SalaCine();
         FilaAsientosExtendida filaExt = new FilaAsientosExtendida();
-        filaExt.agregarAsiento(new Asiento4D());
+        filaExt.agregar(new Asiento4D());
         sala.agregar(filaExt);
 
         assertTrue(sala.estaDisponible(), "Debe haber disponibilidad por la fila extendida");
@@ -69,8 +69,8 @@ public class SalaCineTest {
         a1.setDisponible(false);
         a2.setDisponible(false);
 
-        filaExt.agregarAsiento(a1);
-        filaExt.agregarAsiento(a2);
+        filaExt.agregar(a1);
+        filaExt.agregar(a2);
         sala.agregar(filaExt);
 
         assertFalse(sala.estaDisponible(), "Con todos ocupados no debe haber disponibilidad");

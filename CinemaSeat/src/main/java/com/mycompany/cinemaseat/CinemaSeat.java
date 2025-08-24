@@ -28,9 +28,9 @@ public class CinemaSeat {
         FilaAsientosExtendida fila = new FilaAsientosExtendida();
 
         // Se añaden instancias de cada tipo de asiento a la fila
-        fila.agregarAsiento(new AsientoVIP());
-        fila.agregarAsiento(new AsientoEstandar());
-        fila.agregarAsiento(new Asiento4D());
+        fila.agregar(new AsientoVIP());
+        fila.agregar(new AsientoEstandar());
+        fila.agregar(new Asiento4D());
         sala.agregar(fila);
 
         // 3. Menú interactivo
