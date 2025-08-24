@@ -4,10 +4,48 @@
  */
 package com.mycompany.cinemaseat;
 
+class AsientoEstandar implements Asiento {
+    private boolean disponible = true;
+
+    @Override
+    public boolean estaDisponible() {
+        return this.disponible;
+    }
+
+    @Override
+    public void setDisponible(boolean disponible) {
+        this.disponible = disponible;
+    }
+
+    @Override
+    public String getRepresentacion() {
+        return disponible ? "[E]" : "[X]";
+    }
+
+    @Override
+    public TipoAsiento getTipo() {
+        return TipoAsiento.ESTANDAR;
+    }
+    
+    @Override
+    public double getPrecio() {
+        return 8.0;
+    }
+
+    @Override
+    public String getDescripcion() {
+        return "Asiento estandar con experiencia clasica.";
+    }
+}
+
+
+
 /**
  *
  * @author mateo
  */
+
+ /*
 public class AsientoEstandar implements Asiento {
     private boolean disponible = true;
 
@@ -36,3 +74,4 @@ public class AsientoEstandar implements Asiento {
         System.out.println("Asiento Estandar - Disponible: " + disponible);
     }
 }
+ */

@@ -25,7 +25,7 @@ public class FilaAsientos  extends FilaAsientosRef{
     
     public void mostrar() {
         for (Asiento e : elementos) {
-            e.mostrar();
+            e.getDescripcion();
         }
     }
 

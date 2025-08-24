@@ -4,11 +4,48 @@
  */
 package com.mycompany.cinemaseat;
 
+
+
+class AsientoVIP implements Asiento {
+    private boolean disponible = true;
+
+    @Override
+    public boolean estaDisponible() {
+        return this.disponible;
+    }
+
+    @Override
+    public void setDisponible(boolean disponible) {
+        this.disponible = disponible;
+    }
+
+    @Override
+    public String getRepresentacion() {
+        return disponible ? "[V]" : "[X]";
+    }
+
+    @Override
+    public TipoAsiento getTipo() {
+        return TipoAsiento.VIP;
+    }
+
+    @Override
+    public double getPrecio() {
+        return 15.0;
+    }
+
+    @Override
+    public String getDescripcion() {
+        return "Asiento VIP con mayor comodidad.";
+    }
+}
+
 /**
  *
  * @author mateo
  */
-public class AsientoVIP implements Asiento {
+/*/
+ public class AsientoVIP implements Asiento {
     private boolean disponible = true;
 
     @Override
@@ -40,3 +77,4 @@ public class AsientoVIP implements Asiento {
 
     
 }
+*/

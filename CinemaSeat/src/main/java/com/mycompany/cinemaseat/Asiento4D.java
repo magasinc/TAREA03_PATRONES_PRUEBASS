@@ -4,10 +4,47 @@
  */
 package com.mycompany.cinemaseat;
 
+class Asiento4D implements Asiento {
+    private boolean disponible = true;
+
+    @Override
+    public boolean estaDisponible() {
+        return this.disponible;
+    }
+
+    @Override
+    public void setDisponible(boolean disponible) {
+        this.disponible = disponible;
+    }
+
+    @Override
+    public String getRepresentacion() {
+        return disponible ? "[4]" : "[X]";
+    }
+
+    @Override
+    public TipoAsiento getTipo() {
+        return TipoAsiento.CUATRO_D;
+    }
+    
+    @Override
+    public double getPrecio() {
+        return 20.0;
+    }
+
+    @Override
+    public String getDescripcion() {
+        return "Asiento 4D con efectos especiales y vibracion.";
+    }
+}
+
+
 /**
  *
  * @author mateo
  */
+
+ /*
 public class Asiento4D implements Asiento {
     private boolean disponible = true;
 
@@ -38,3 +75,4 @@ public class Asiento4D implements Asiento {
 
     
 }
+ */

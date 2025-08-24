@@ -11,6 +11,40 @@ package com.mycompany.cinemaseat;
 import java.util.ArrayList;
 import java.util.List;
 
+class SalaCine {
+    private List<FilaAsientosExtendida> filas = new ArrayList<>();
+
+    public void agregar(FilaAsientosExtendida fila) {
+        filas.add(fila);
+    }
+
+    public void mostrar() {
+        for (FilaAsientosExtendida fila : filas) {
+            fila.mostrar();
+        }
+    }
+
+    public boolean estaDisponible() {
+        for (FilaAsientosExtendida fila : filas) {
+            if (fila.estaDisponible()) {
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    public Asiento reservarAsientoPorTipo(TipoAsiento tipo) {
+        for (FilaAsientosExtendida fila : filas) {
+            Asiento asientoReservado = fila.reservarAsientoPorTipo(tipo);
+            if (asientoReservado != null) {
+                return asientoReservado;
+            }
+        }
+        return null;
+    }
+}
+
+/*
 public class SalaCine {
     private List<FilaAsientos> filas;
 
@@ -38,3 +72,5 @@ public class SalaCine {
         }
     }
 }
+
+ */

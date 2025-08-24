@@ -77,7 +77,7 @@ switch (opcion) {
                     
                     break;
                 case 4:
-                    funcion.cambiarEstado("cancelada");
+                    funcion.cambiarEstado(EstadoFuncion.CANCELADA);
                     
                     break;
                 case 5:

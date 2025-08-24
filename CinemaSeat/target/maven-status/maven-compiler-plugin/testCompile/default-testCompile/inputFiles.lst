@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\Asiento4DTest.java
 C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\AsientoEstandarTest.java
@@ -11,9 +12,13 @@ C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\ja
 C:\Users\Cocki\Documents\GitHub\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\SalaCineTest.java
 
 g\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\Asiento4DTest.java
+=======
+C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\Asiento4DTest.java
+>>>>>>> Stashed changes
 C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\AsientoEstandarTest.java
 C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\AsientoVIPTest.java
 C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\ClienteCineTest.java
+C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\FabricaAsientoEstandarTest.java
 C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\FabricaAsientoVIPTest.java
 C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\FilaAsientosExtendidaTest.java
 C:\Users\joseg\OneDrive\Escritorio\DISEÑO DE SOFTWARE\tarea3\TAREA03_PATRONES_PRUEBASS\CinemaSeat\src\test\java\com\mycompany\cinemaseat\FilaAsientosTest.java

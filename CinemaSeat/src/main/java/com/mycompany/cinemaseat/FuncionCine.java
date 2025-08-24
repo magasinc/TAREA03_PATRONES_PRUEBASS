@@ -11,6 +11,37 @@ package com.mycompany.cinemaseat;
 import java.util.ArrayList;
 import java.util.List;
 
+
+class FuncionCine {
+    private EstadoFuncion estado;
+    private List<SuscriptorNotificacion> suscriptores;
+
+    public FuncionCine() {
+        this.estado = EstadoFuncion.ACTIVA;
+        this.suscriptores = new ArrayList<>();
+    }
+
+    public void cambiarEstado(EstadoFuncion nuevoEstado) {
+        this.estado = nuevoEstado;
+        notificarSuscriptores();
+    }
+
+    public void registrar(SuscriptorNotificacion suscriptor) {
+        if (suscriptor != null) {
+            suscriptores.add(suscriptor);
+        } else {
+            throw new IllegalArgumentException("Suscriptor no puede ser null");
+        }
+    }
+
+    public void notificarSuscriptores() {
+        for (SuscriptorNotificacion s : suscriptores) {
+            s.notificar("La función esta ahora en estado: " + estado);
+        }
+    }
+}
+
+/*/
 public class FuncionCine {
     private String estado;
     private List<SuscriptorNotificacion> suscriptores;
@@ -40,3 +71,5 @@ public class FuncionCine {
     }
     
 }
+
+*/
