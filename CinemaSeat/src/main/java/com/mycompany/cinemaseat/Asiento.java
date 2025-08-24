@@ -8,11 +8,12 @@ package com.mycompany.cinemaseat;
  *
  * @author mateo
  */
-public interface Asiento {
-    double getPrecio();
-    String getDescripcion();
+interface Asiento {
+    // Métodos para gestionar el estado y la información del asiento.
     boolean estaDisponible();
     void setDisponible(boolean disponible);
-    void mostrar();
-    
+    String getRepresentacion();
+    TipoAsiento getTipo();
+    double getPrecio();
+    String getDescripcion();
 }
